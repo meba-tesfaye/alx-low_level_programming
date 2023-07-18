@@ -13,6 +13,10 @@ if (r > 0)
 _putchar('+');
 return (1);
 }
+if (r = 0)
+{
+_puchar( '0');
+}
 else if (r < 0)
 {
 _putchar('-');
