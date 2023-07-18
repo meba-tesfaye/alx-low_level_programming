@@ -8,14 +8,14 @@
 */
 int print_sign(int g)
 {
-if (g >= 0)
+if (g > 0)
 {
 _putchar('+');
 return (1);
 }
-else if (g =< 0)
+else if (g < 0)
 {
 _putchar('-');
-}
 return (-1);
+}
 }
