@@ -15,7 +15,7 @@ return (1);
 }
 if (r == 0)
 {
-_putchar( '0');
+_putchar('0');
 }
 else if (r < 0)
 {
