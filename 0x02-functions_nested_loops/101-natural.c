@@ -14,6 +14,6 @@ w += b;
 }
 b++;
 }
-printf("%d\n" , w);
+printf("%d\n", w);
 return (0);
 }
