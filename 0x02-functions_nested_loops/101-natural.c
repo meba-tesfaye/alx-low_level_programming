@@ -1,19 +1,27 @@
 #include <stdio.h>
 /**
-*main - printsthe sum of all multiples of 3 or 5 up to 1024
+*main - prints the sum of all multiples of 3 or 5 up to 1024
 *Return: Always (Sucess)
 */
 int main(void)
 {
-int b, w = 0;
-while (b < 1024)
+unsigned long int x, y, z;
+int b;
+z = 0;
+y = 0;
+x = 0;
+for ( b = 0; b < 1024; b++)
 {
-if ((b % 3 == 0) || (w % 5 == 0))
+if ((b % 3) == 0)
 {
-w += b;
+z = z + b;
 }
-b++;
+else if (( b % 5) == 0)
+{
+y = y + b;
 }
-printf("%d\n", w);
+}
+z = x + y ;
+printf("%lu\n", z)
 return (0);
 }
