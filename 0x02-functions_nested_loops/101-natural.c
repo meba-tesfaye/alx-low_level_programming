@@ -22,6 +22,6 @@ y = y + b;
 }
 }
 z = x + y ;
-printf("%lu\n", z)
+printf("%lu\n", z);
 return (0);
 }
