@@ -13,3 +13,4 @@ sum += b;
 }
 printf("%d\n", sum);
 return (0);
+}
