@@ -8,7 +8,7 @@ int main(void)
 int b, w = 0;
 while (b < 1024)
 {
-if (( m % 3 == 0) || (w % 5 == 0))
+if ((b % 3 == 0) || (w % 5 == 0))
 {
 w += b;
 }
