@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main - sum up even fibonacci up to 4000000
+*main - sum up even fibonacci up to 4 million
 *Return: 0
 */
 int main(void)
@@ -16,5 +16,6 @@ sum = x + y;
 x = y;
 y = sum;
 }
+printf("%ld\n", tsum);
 return (0);
 }
