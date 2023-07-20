@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * void positive_or_negative - test if it is postive or negative
+ * positive_or_negative - test if it is postive or negative
  * @i: is am intiger to be defined
  */
 void positive_or_negative(int i)
