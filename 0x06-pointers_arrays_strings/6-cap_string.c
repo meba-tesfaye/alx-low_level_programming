@@ -20,7 +20,7 @@ str[index - 1] == ';' ||
 str[index - 1] == '.' ||
 str[index - 1] == '!' ||
 str[index - 1] == '?' ||
-str[index - 1] == '"' ||
+str[index - 1] == '""' ||
 str[index - 1] == '(' ||
 str[index - 1] == ')' ||
 str[index - 1] == '{' ||
