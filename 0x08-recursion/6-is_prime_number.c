@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 #include <stdio.h>
 int check_prime(int n, int i);
 /**
@@ -8,7 +8,9 @@ int check_prime(int n, int i);
 */
 int is_prime_number(int n)
 {
-return (check_prime(n, 0));
+if (n <= 1)
+return (0);
+return (check_prime(n, n - 1));
 }
 /**
 * check_prime - check if number is prime
@@ -18,11 +20,9 @@ return (check_prime(n, 0));
 */
 int check_prime(int n, int i)
 {
-if (n <= 1)
-return (0);
-if (n % i == 0 && i > 1)
-return (0);
-if ((n / 1) < 1)
+if (i == 1)
 return (1);
-return (check_prime(n, i + 1));
+if (n % i == 0 && i > 0)
+return (0);
+return (check_prime(n, i - 1));
 }
