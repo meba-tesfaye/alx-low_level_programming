@@ -5,7 +5,7 @@
 * Return: on sucess 1 
 * on error -1 is returned
 */
-int _putchar(chat c)
+int _putchar(char c)
 {
 return(write(1, &c, 1));
 }
